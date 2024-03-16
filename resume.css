@@ -11,11 +11,11 @@
   div {
     border-radius: 5px;
   }
-  
+
   #header {
     height: 40px;
     width: 100%;
-    background-color: #ffcccc;
+    background-color: #c91f1f;
     position: fixed;
     z-index: 1;
   }
@@ -27,7 +27,7 @@
   #footer {
     height: 50px;
     width: 100%;
-    background-color: #ffcccc;
+    background-color: #c91f1f;
     clear: both;
     position: relative;
   }
@@ -57,8 +57,8 @@
   }
   
   p,
-  li {
-    font-family: 'ui-monospace';
+  li, h1, h2 {
+    font-family: monospace;
   }
   
   .head {
@@ -66,7 +66,7 @@
   }
   
   #name {
-    font-family: Sacramento;
+    font-family: monospace;
     float: right;
     margin-top: 10px;
     margin-right: 4%;
@@ -74,7 +74,7 @@
   
   a {
     color: black;
-    text-decoration: none;
+    text-decoration:underline
   }
   
   @media only screen and (max-width: 430px) {
